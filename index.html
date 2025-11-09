@@ -1,7 +1,5 @@
 ---
-layout: archive
-title: "Home"
-permalink: /
+layout: home
 author_profile: true
 ---
 
@@ -13,8 +11,10 @@ I am interested in [areas of interest or keywords].
 
 ## Publications
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+{% if site.publications %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+  <p>No publications found. Make sure you have a _publications folder with publication files.</p>
+{% endif %}
