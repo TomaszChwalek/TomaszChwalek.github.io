@@ -3,6 +3,8 @@ title: Arzu Burcu Güven
 description: PhD student at IT University of Copenhagen
 url: "https://arzuburcuguven.github.io"
 baseurl: ""
+remote_theme: alshedivat/al-folio
+
 
 # PERSONAL INFO
 
@@ -10,7 +12,7 @@ author:
   name: "Arzu Burcu Güven"
   avatar: "assets/img/arzu.jpg"
   position: "PhD Student"
-  affiliation: "[Data Science], [IT University of Copenhagen]
+  affiliation: "[Data Science], [IT University of Copenhagen]"
   email: ""
   github: "https://github.com/arzuburcuguven"
   bluesky: "https://bsky.app/profile/arzuburcuguven.bsky.social"
