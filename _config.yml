@@ -11,7 +11,7 @@ repository: "arzuburcuguven/arzuburcuguven.github.io"
 # THEME
 # -----------------------
 remote_theme: mmistakes/minimal-mistakes@4.24.0
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # -----------------------
 # SITE AUTHOR
@@ -24,7 +24,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:your.email@itu.dk"
+      url: "mailto:argy@itu.dk"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/arzuburcuguven"
@@ -38,14 +38,7 @@ author:
 # -----------------------
 # FOOTER
 # -----------------------
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/arzuburcuguven"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/arzu-burcu-güven-4081338b/"
+
 
 # -----------------------
 # READING FILES
