@@ -1,6 +1,9 @@
 ---
-layout: home
+# layout: splash
+permalink: /
+layout: single
 author_profile: true
+#title: Home
 ---
 
 ## About
@@ -18,3 +21,4 @@ I am interested in [areas of interest or keywords].
 {% else %}
   <p>No publications found. Make sure you have a _publications folder with publication files.</p>
 {% endif %}
+
