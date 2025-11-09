@@ -10,7 +10,7 @@ remote_theme: alshedivat/al-folio
 
 author:
   name: "Arzu Burcu Güven"
-  #avatar: "assets/img/arzu.jpg"
+  # avatar: "assets/img/arzu.jpg"
   position: "PhD Student"
   affiliation: "[Data Science], [IT University of Copenhagen]"
   email: ""
@@ -60,5 +60,4 @@ footer:
       url: https://www.linkedin.com/in/arzu-burcu-güven-4081338b/
 
 # OPTIONS
-google_analytics:  # e.g. "UA-XXXXXXXXX-X"
-favicon: "assets/img/favicon.ico"
+# favicon: "assets/img/favicon.ico"
