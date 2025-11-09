@@ -1,0 +1,62 @@
+# SITE SETTINGS
+title: Arzu Burcu Güven
+description: PhD student at IT University of Copenhagen
+url: "https://arzuburcuguven.github.io"
+baseurl: ""
+
+# PERSONAL INFO
+
+author:
+  name: Arzu Burcu Güven
+  avatar: "assets/img/arzu.jpg"
+  position: "PhD Student"
+  affiliation: "[Data Science], [IT University of Copenhagen]
+  email: ""
+  github: "https://github.com/arzuburcuguven"
+  bluesky: "https://bsky.app/profile/arzuburcuguven.bsky.social"
+  linkedin: "https://www.linkedin.com/in/arzu-burcu-güven-4081338b/"
+
+
+# ABOUT PAGE INFO
+about: |
+  I am a PhD student in [Your Field] at [Your University].  
+  My research focuses on [brief description of your research topics].  
+  I am interested in [areas of interest or keywords].
+
+# BUILD SETTINGS
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# BLOG SETTINGS
+paginate: 5
+paginate_path: "/page:num/"
+
+# THEME SETTINGS
+collections:
+  publications:
+    output: true
+  projects:
+    output: true
+  teaching:
+    output: true
+  blog:
+    output: true
+
+# SOCIAL LINKS (footer)
+footer:
+  show_powered_by: false
+  social:
+    - title: GitHub
+      url: https://github.com/arzuburcuguven
+    - title: Bluesky
+      url: https://bsky.app/profile/arzuburcuguven.bsky.social
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/arzu-burcu-güven-4081338b/
+
+# OPTIONS
+google_analytics:  # e.g. "UA-XXXXXXXXX-X"
+favicon: "assets/img/favicon.ico"
