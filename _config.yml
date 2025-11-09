@@ -18,7 +18,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 # -----------------------
 author:
   name: "Arzu Burcu Güven"
-  avatar: "/assets/images/bio-photo.jpg" # optional
+  avatar: "/assets/images/arzu.jpg" # optional
   bio: "PhD Student in Data Science"
   location: "Copenhagen, Denmark"
   links:
@@ -128,11 +128,7 @@ defaults:
 collections:
   publications:
     output: true
-    permalink: /:collection/:path/
-  projects:
-    output: true
-    permalink: /:collection/:path/
-
+    permalink: /:collection/:path
 # -----------------------
 # PAGINATION
 # -----------------------
