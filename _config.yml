@@ -10,7 +10,7 @@ remote_theme: alshedivat/al-folio
 
 author:
   name: "Arzu Burcu Güven"
-  avatar: "assets/img/arzu.jpg"
+  # avatar: "assets/img/arzu.jpg"
   position: "PhD Student"
   affiliation: "[Data Science], [IT University of Copenhagen]"
   email: ""
