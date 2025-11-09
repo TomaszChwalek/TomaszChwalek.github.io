@@ -5,78 +5,141 @@ title: "Arzu Burcu Güven"
 description: "PhD student at IT University of Copenhagen"
 url: "https://arzuburcuguven.github.io"
 baseurl: ""
+repository: "arzuburcuguven/arzuburcuguven.github.io"
 
 # -----------------------
-# REMOTE THEME
+# THEME
 # -----------------------
-remote_theme: alshedivat/al-folio
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # -----------------------
-# THEME SETTINGS (Required by al-folio)
+# SITE AUTHOR
 # -----------------------
-max_width: 800px
+author:
+  name: "Arzu Burcu Güven"
+  avatar: "/assets/images/bio-photo.jpg" # optional
+  bio: "PhD Student in Data Science"
+  location: "Copenhagen, Denmark"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:your.email@itu.dk"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/arzuburcuguven"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/arzu-burcu-güven-4081338b/"
+    - label: "Bluesky"
+      icon: "fas fa-fw fa-cloud"
+      url: "https://bsky.app/profile/arzuburcuguven.bsky.social"
 
 # -----------------------
-# AUTHOR / PERSONAL INFO
+# FOOTER
 # -----------------------
-first_name: Arzu Burcu
-last_name: Güven
-email: ""
-description: PhD student at IT University of Copenhagen
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/arzuburcuguven"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/arzu-burcu-güven-4081338b/"
 
 # -----------------------
-# SOCIAL
+# READING FILES
 # -----------------------
-github_username: arzuburcuguven
-linkedin_username: arzu-burcu-güven-4081338b
-bluesky_username: arzuburcuguven.bsky.social
+include:
+  - _pages
+  - .htaccess
+
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
 
 # -----------------------
-# BLOG SETTINGS
+# PLUGINS
 # -----------------------
-blog_name: ""
-blog_description: ""
-permalink: /blog/:year/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache
 
 # -----------------------
-# PAGINATION
+# ARCHIVES
 # -----------------------
-paginate: 5
-paginate_path: /blog/page:num/
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# -----------------------
+# DEFAULTS
+# -----------------------
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 # -----------------------
 # COLLECTIONS
 # -----------------------
 collections:
-  news:
-    defaults:
-      layout: post
+  publications:
     output: true
-    permalink: /news/:path/
+    permalink: /:collection/:path/
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /:collection/:path/
 
 # -----------------------
-# JEKYLL SETTINGS
+# PAGINATION
+# -----------------------
+paginate: 5
+paginate_path: /page:num/
+
+# -----------------------
+# MARKDOWN
 # -----------------------
 markdown: kramdown
-highlighter: rouge
-include: ['_pages']
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-
-# -----------------------
-# OTHER SETTINGS
-# -----------------------
-enable_darkmode: true
