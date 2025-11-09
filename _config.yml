@@ -4,73 +4,79 @@
 title: "Arzu Burcu Güven"
 description: "PhD student at IT University of Copenhagen"
 url: "https://arzuburcuguven.github.io"
-baseurl: ""  # leave empty for user site
+baseurl: ""
 
 # -----------------------
 # REMOTE THEME
 # -----------------------
 remote_theme: alshedivat/al-folio
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
+
+# -----------------------
+# THEME SETTINGS (Required by al-folio)
+# -----------------------
+max_width: 800px
 
 # -----------------------
 # AUTHOR / PERSONAL INFO
 # -----------------------
-author:
-  name: "Arzu Burcu Güven"
-  #avatar: "assets/img/arzu.jpg"  # optional, put your image here
-  position: "PhD Student"
-  affiliation: "Data Science, IT University of Copenhagen"
-  email: ""
-  github: "https://github.com/arzuburcuguven"
-  linkedin: "https://www.linkedin.com/in/arzu-burcu-güven-4081338b/"
-  bluesky: "https://bsky.app/profile/arzuburcuguven.bsky.social"
+first_name: Arzu Burcu
+last_name: Güven
+email: ""
+description: PhD student at IT University of Copenhagen
 
 # -----------------------
-# ABOUT PAGE
+# SOCIAL
 # -----------------------
-about: |
-  I am a PhD student in Data Science at IT University of Copenhagen.  
-  My research focuses on [brief description of your research topics].  
-  I am interested in [areas of interest or keywords].
+github_username: arzuburcuguven
+linkedin_username: arzu-burcu-güven-4081338b
+bluesky_username: arzuburcuguven.bsky.social
 
 # -----------------------
 # BLOG SETTINGS
 # -----------------------
+blog_name: ""
+blog_description: ""
+permalink: /blog/:year/:title/
+
+# -----------------------
+# PAGINATION
+# -----------------------
 paginate: 5
-paginate_path: "/page:num/"
+paginate_path: /blog/page:num/
 
 # -----------------------
 # COLLECTIONS
 # -----------------------
 collections:
-  publications:
+  news:
+    defaults:
+      layout: post
     output: true
+    permalink: /news/:path/
   projects:
     output: true
-  teaching:
-    output: true
-  blog:
-    output: true
+    permalink: /projects/:path/
 
 # -----------------------
-# SOCIAL LINKS (FOOTER)
+# JEKYLL SETTINGS
 # -----------------------
-footer:
-  show_powered_by: false
-  social:
-    - title: GitHub
-      url: "https://github.com/arzuburcuguven"
-    - title: LinkedIn
-      url: "https://www.linkedin.com/in/arzu-burcu-güven-4081338b/"
-    - title: Bluesky
-      url: "https://bsky.app/profile/arzuburcuguven.bsky.social"
+markdown: kramdown
+highlighter: rouge
+include: ['_pages']
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
 
 # -----------------------
-# MISC OPTIONS
+# OTHER SETTINGS
 # -----------------------
-#favicon: "assets/img/favicon.ico"  # optional
-google_analytics: ""  # optional
+enable_darkmode: true
