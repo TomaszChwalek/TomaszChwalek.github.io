@@ -97,16 +97,6 @@ tag_archive:
 # -----------------------
 defaults:
   # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: true
-      related: true
   # _pages
   - scope:
       path: "_pages"
@@ -114,7 +104,17 @@ defaults:
     values:
       layout: single
       author_profile: true
-
+  # _publications
+  - scope:
+      path: "_publications"
+      type: ""
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      share: true
 # -----------------------
 # COLLECTIONS
 # -----------------------
