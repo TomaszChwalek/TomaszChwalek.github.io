@@ -11,9 +11,11 @@ author_profile: true
 I am a PhD student in Data Science at IT University of Copenhagen.
 My research focuses on [brief description of your research topics].
 I am interested in [areas of interest or keywords].
+
+
 ## Publications
 
-{% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
+{% assign sorted_pubs = site.publications | sort: 'date' %}
 {% for pub in sorted_pubs %}
   <div class="publication-item" style="margin-bottom: 1.5em;">
     <strong>{{ pub.authors }}</strong>. 
