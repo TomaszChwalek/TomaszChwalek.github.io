@@ -1,1 +1,0 @@
-# arzuburcuguven.github.io
