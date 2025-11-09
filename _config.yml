@@ -1,43 +1,51 @@
+# -----------------------
 # SITE SETTINGS
-title: Arzu Burcu Güven
-description: PhD student at IT University of Copenhagen
+# -----------------------
+title: "Arzu Burcu Güven"
+description: "PhD student at IT University of Copenhagen"
 url: "https://arzuburcuguven.github.io"
-baseurl: ""
+baseurl: ""  # leave empty for user site
+
+# -----------------------
+# REMOTE THEME
+# -----------------------
 remote_theme: alshedivat/al-folio
-
-
-# PERSONAL INFO
-
-author:
-  name: "Arzu Burcu Güven"
-  # avatar: "assets/img/arzu.jpg"
-  position: "PhD Student"
-  affiliation: "[Data Science], [IT University of Copenhagen]"
-  email: ""
-  github: "https://github.com/arzuburcuguven"
-  bluesky: "https://bsky.app/profile/arzuburcuguven.bsky.social"
-  linkedin: "https://www.linkedin.com/in/arzu-burcu-güven-4081338b/"
-
-
-# ABOUT PAGE INFO
-about: |
-  I am a PhD student in [Your Field] at [Your University].  
-  My research focuses on [brief description of your research topics].  
-  I am interested in [areas of interest or keywords].
-
-# BUILD SETTINGS
-markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
 
+# -----------------------
+# AUTHOR / PERSONAL INFO
+# -----------------------
+author:
+  name: "Arzu Burcu Güven"
+  #avatar: "assets/img/arzu.jpg"  # optional, put your image here
+  position: "PhD Student"
+  affiliation: "Data Science, IT University of Copenhagen"
+  email: ""
+  github: "https://github.com/arzuburcuguven"
+  linkedin: "https://www.linkedin.com/in/arzu-burcu-güven-4081338b/"
+  bluesky: "https://bsky.app/profile/arzuburcuguven.bsky.social"
+
+# -----------------------
+# ABOUT PAGE
+# -----------------------
+about: |
+  I am a PhD student in Data Science at IT University of Copenhagen.  
+  My research focuses on [brief description of your research topics].  
+  I am interested in [areas of interest or keywords].
+
+# -----------------------
 # BLOG SETTINGS
+# -----------------------
 paginate: 5
 paginate_path: "/page:num/"
 
-# THEME SETTINGS
+# -----------------------
+# COLLECTIONS
+# -----------------------
 collections:
   publications:
     output: true
@@ -48,16 +56,21 @@ collections:
   blog:
     output: true
 
-# SOCIAL LINKS (footer)
+# -----------------------
+# SOCIAL LINKS (FOOTER)
+# -----------------------
 footer:
   show_powered_by: false
   social:
     - title: GitHub
-      url: https://github.com/arzuburcuguven
-    - title: Bluesky
-      url: https://bsky.app/profile/arzuburcuguven.bsky.social
+      url: "https://github.com/arzuburcuguven"
     - title: LinkedIn
-      url: https://www.linkedin.com/in/arzu-burcu-güven-4081338b/
+      url: "https://www.linkedin.com/in/arzu-burcu-güven-4081338b/"
+    - title: Bluesky
+      url: "https://bsky.app/profile/arzuburcuguven.bsky.social"
 
-# OPTIONS
-# favicon: "assets/img/favicon.ico"
+# -----------------------
+# MISC OPTIONS
+# -----------------------
+#favicon: "assets/img/favicon.ico"  # optional
+google_analytics: ""  # optional
