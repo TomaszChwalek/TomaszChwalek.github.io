@@ -1,11 +1,11 @@
 # -----------------------
 # SITE SETTINGS
 # -----------------------
-title: "Arzu Burcu Güven"
+title: "Tomasz Chwałek" 
 description: "PhD student at IT University of Copenhagen"
-url: "https://arzuburcuguven.github.io"
+url: "https://TomaszChwalek.github.io"
 baseurl: ""
-repository: "arzuburcuguven/arzuburcuguven.github.io"
+repository: "TomaszChwalek/TomaszChwalek.github.io"
 
 # -----------------------
 # THEME
@@ -17,23 +17,17 @@ minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "
 # SITE AUTHOR
 # -----------------------
 author:
-  name: "Arzu Burcu Güven"
+  name: "Tomasz Chwałek"
   avatar: "/assets/images/arzu.jpg" # optional
-  bio: "PhD Student in Data Science"
+  bio: "PhD Student in Digitalization, Democracy, and Governance"
   location: "Copenhagen, Denmark"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:argy@itu.dk"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/arzuburcuguven"
+      url: "mailto:tchw@itu.dk"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/arzu-burcu-güven-4081338b/"
-    - label: "Bluesky"
-      icon: "fas fa-fw fa-cloud"
-      url: "https://bsky.app/profile/arzuburcuguven.bsky.social"
+      url: "https://www.linkedin.com/in/tomasz-chwałek-b5390b249/"
 
 # -----------------------
 # FOOTER
