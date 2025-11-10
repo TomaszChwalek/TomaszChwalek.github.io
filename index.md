@@ -8,11 +8,12 @@ author_profile: true
 
 I am a PhD student at IT University of Copenhagen.
 
-%%I work in the [X](link) research group, under the supervision of [X](https://robvanderg.github.io/) and [Anna Rogers](https://annargrs.github.io/).
+<!--
+I work in the [X](link) research group, under the supervision of [X](https://robvanderg.github.io/) and [Anna Rogers](https://annargrs.github.io/).
 
 My research focuses on how language models learn and use language, specifically I am interested in whether if we can find the hiearchical biases language models develop hierarchical biases toward syntactic structure, how we can distinguish statistical learning from structural 
 knowledge, and how training data composition affects model performance. Broader themes in my work are generalization, and multilingual linguistic evaluation.
-
+-->
 ## Publications
 
 {% assign sorted_pubs = site.publications | sort: 'date' %}
